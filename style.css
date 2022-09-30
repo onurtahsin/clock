@@ -1,0 +1,55 @@
+/* @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  background: #1a1f39;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: url(https://shu-vro.github.io/Analog-Clock-Effect/clock.png)
+    no-repeat center center;
+  background-size: cover;
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotatez(-90deg);
+}
+
+.time {
+  position: relative;
+  width: 100%;
+  color: white;
+  line-height: 350px;
+  text-align: center;
+  font-size: 20px;
+} */
+body {
+  background: black;
+}
+
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #17d4fe;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+}
